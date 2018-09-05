@@ -1,0 +1,8 @@
+{
+  "bootstrap_servers":"127.0.0.1:9092",
+  "topic":"test",
+  "interval":1100,
+  "source_file":"./test_excel.xls",
+  "source_type":"excel",
+  "source_key":0
+}
