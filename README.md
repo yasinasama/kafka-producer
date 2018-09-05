@@ -1,5 +1,6 @@
 # kafka-producer
-A kafka producer
+A simple kafka producer
+You can produce test data to kafka topic via manual or from excel/csv.
 
 ## Usage
 ````
@@ -8,8 +9,8 @@ or
 wget https://github.com/yasinasama/kafka-producer/archive/master.zip
 unzip master.zip
 
-(manual)python kafka-producer.py -c config.json
-(not manual)python kafka-producer.py -c config.json -m
+(manual)python kafka-producer.py -c config.json -m
+(not manual)python kafka-producer.py -c config.json
 ````
 
 ## Config.json
