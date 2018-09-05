@@ -146,17 +146,15 @@ def main():
                     print('source_key must be 0 or 1')
                     sys.exit()
                 producer.send(topic, key, json.dumps(row))
-                time.sleep(interval/1000)
+                time.sleep(int(interval)/1000)
         except:
             raise
         finally:
             producer.close()
 
 
-
 if __name__=='__main__':
     main()
-    # read_excel('./test2.xls')
 
 
 
