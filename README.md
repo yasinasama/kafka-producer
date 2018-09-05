@@ -24,6 +24,11 @@ unzip master.zip
   "source_key":0
 }
 ````
+## More detail
+````
+python kafka-producer.py -h
+````
+
 
 
 
